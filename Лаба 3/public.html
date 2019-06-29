@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap.css">
+	<script src="bootstrap.min.js"></script>
+	<title>Янова</title>
+<style type="text/css">
+	body{
+		background: #e9eae2;
+		font-family: Roboto, sans-serif;
+		overflow-x:hidden;}
+
+	.logoimg{
+		min-height: 30px;
+		min-width: 20px;
+	}
+	.invisibleblock{
+	top: -2px;
+	left: -400px;
+	position: absolute;
+	width: 500px;
+	height: 100px;
+	display: none;
+	background: #ffcc66;
+	}
+	.hover:hover{
+		cursor: pointer;
+	}
+	.hover:hover .invisibleblock{
+	display: flex;
+	flex-direction:row;
+}
+.atr{
+	padding: 20px;
+	margin-top: 15px;
+	color: white;
+
+}
+.atrproj{
+padding-left:150px;
+color: #ffffff
+}
+.atrproj:hover{
+	cursor: pointer;
+	color: black
+}
+.grye {
+margin-top:-250px;
+}
+/*что бы на мобилке норм смотрелось*/
+@media only screen and (max-device-width: 480px) {
+.grye {
+margin-top: 0px; }
+}
+
+</style>
+</head>
+<body>
+	<!-- header section-->
+	<div class="row" >
+	<div class="col-2" style="padding-top: 50px;"> 
+		<img src="images/logo/DSGN.png" class="col-10 offset-6" style="min-height: 140px; min-width: 140px;">
+		<h5 class="col-6 offset-6"><strong>ASSOCIATES<br>STUDIO<br>DESIGN</strong></h5>
+		<!-- logo & text-->
+  		<div class="d-flex flex-row offset-6" style="padding-top: 60px;">
+  			<div class="logoimg col-4" style="background-image: url(images/logo/facebookicon.png); background-repeat: no-repeat; margin-left:10px"></div>
+  			<div class="logoimg col-4" style="background-image: url(images/logo/twittericon.png); background-repeat: no-repeat; margin-right:10px"></div> 
+  			<div class="logoimg col-4" style="background-image: url(images/logo/linkedinicon.png); background-repeat: no-repeat; margin-right:10px"></div> 
+  			<div class="logoimg col-4" style="background-image: url(images/logo/g+icon.png); background-repeat: no-repeat; margin-right:10px"></div> 
+		</div> 	
+	</div>
+	<!-- стулья-->
+	<img src="images/taburet.png" class="col-10 col-sm-10 col-md-5 ">
+	<!-- block with hover-->
+	<div class="col-10 offset-1 col-md-4" style="background-image: url(images/line.png); background-repeat: no-repeat; min-height:500px; ">
+		<div class="hover" style=" border: 2px solid #ffffff; height: 100px; width: 100px;position: absolute;margin-left:170px;margin-top:80px">
+			<div style="background-image: url(images/burger.png); background-repeat: no-repeat; height: 50px; width: 50px; margin-left: 25px;margin-top:38px;">
+						<div class="invisibleblock ">
+								<div class="atr">HOME</div>
+								<div class="atr">PROJECTS</div>
+								<div class="atr">STUDIO</div>
+								<div class="atr">NEWS</div>
+								<div class="atr">CONTACT</div>
+						</div>
+
+			</div>
+		</div>
+		<h5 style="color: #ffffff; padding-top:240px;">90802 California <br>Long beach<br> PO Box 68789 <br>300 East Ocean <br>Boulev</h5>
+		<h5 style="color: #ffffff; padding-left: 100px">+64 9 345 6758 <br>info@dsgn-studio.com</h5>
+	</div> 
+	</div>
+	<!-- projects section-->
+	<!-- start-->
+	<div class="row" >
+	<div class="col-10 offset-1 col-md-3" style="background-image: url(images/lineprojects.png); background-repeat: no-repeat; min-height:500px;width: 400px; ">
+			<div class="projects" >
+								<div class="atrproj napravl" style="padding-top:100px;">ALL</div>
+								<div class="atrproj">HOUSE</div>
+								<div class="atrproj">COMMERCIAL</div>
+								<div class="atrproj">PERSONAL</div>
+								<div class="atrproj">STUDIOLAB</div>
+			</div>
+			<h1 style="color:#ffffff; margin-left: 200px; margin-top: 140px; ">PROJECTS</h1>
+	</div>
+
+	<!-- projects-->
+
+
+	<!-- лампа-->
+	<div class="col-10 offset-1 offset-md-0 col-md-4" style="background-image: url(images/lampa.png); background-repeat: no-repeat; min-height:500px;">
+		<div style="margin-left: 0px;margin-top: 100px;">
+			<h4>FOUNDE</h4><br>
+			<h6><strong>PROJECT ASISTANT</strong> FRANCESCO DOMPHERI</h6>
+			<h6><strong>MATERIAL</strong> GLASS AND METAL</h6>
+			<h6><strong>TEPOLOGY</strong> SUSPENSION LAMP</h6>
+			<h6><strong>CLIENT</strong> DAVID DESIGN</h6>
+			<h6><strong>YEAR</strong> 2014</h6>
+		</div>
+		<h5 style="margin-top: 70px;margin-left: 40px;">VIEW PROJECT</h5>
+		<div class="like" style="background-image: url(images/heart.png); background-repeat: no-repeat; min-height:100px;margin-top: 60px;margin-left: 100px"></div>
+		<h6 class="likenum" style="margin-top:-70px; margin-left: 100px">200</h6>
+	</div>
+	<!-- колонка-->
+		<div class="col-12 offset-0 offset-md-0 col-md-3" style="background-image: url(images/potter.png); background-repeat: no-repeat; min-height:240px;">
+		<div style="">
+			<h4>POTER</h4><br>
+			<h6><strong>FOR</strong>STELTON</h6>
+			<h6>Potter focuses on the functionality<br> and process of to<br> evenly brewed</h6>
+		</div>
+		<h5 style="margin-left: 40px;">VIEW PROJECT</h5>
+		<div class="like" style="background-image: url(images/heart.png); background-repeat: no-repeat; min-height:100px;margin-top: 10px;margin-left: 100px"></div>
+		<h6 class="likenum" style="margin-top:-70px; margin-left: 100px">200</h6>
+	</div>
+	<!-- стул-->
+			<div class="col-10 offset-1 offset-md-1 col-md-2" style="background-image: url(images/styl.png); background-repeat: no-repeat; min-height:400px; color:#ffffff">
+		<div style="">
+			<h4>Louis XX</h4><br>
+			<h6><strong>designer</strong>philippe starck </h6>
+			<h6><strong>ypology</strong>chairs</h6>
+			<h6><strong>Client</strong>vitra</h6>
+			<h6><strong>Year</strong>2012</h6>
+
+		</div>
+		<h5 style="margin-left: 40px;">VIEW PROJECT</h5>
+		<div class="like" style="background-image: url(images/heart.png); background-repeat: no-repeat; min-height:100px;margin-top: 10px;margin-left: 100px"></div>
+		<h6 class="likenum" style="margin-top:-70px; margin-left: 100px">200</h6>
+	</div>
+	<!-- кресло-->
+			
+			<div class="col-12 offset-0 offset-md-0 col-md-4" style="background-image: url(images/kreslo.png); background-repeat: no-repeat; min-height:400px; ">
+		<div style="">
+			<h4 style=" margin-left: 320px;margin-top: 50px"> 395-396 P22</h4><br>
+			<h6 style=" margin-left: 320px;"><strong>Designer</strong> Patrick </h6>
+			<h6 style=" margin-left: 320px;"><strong>Typology</strong> ARMchairs</h6>
+			<h6 style=" margin-left: 320px;"><strong>Client</strong> Cassina</h6>
+			<h6 style=" margin-left: 320px;"><strong>Year</strong> 2013</h6>
+		</div>
+		<h5 style="margin-left: 520px;margin-top: -120px;">VIEW PROJECT</h5>
+		<div class="like" style="background-image: url(images/heart.png); background-repeat: no-repeat; min-height:100px;margin-top: 10px;margin-left: 550px;"></div>
+		<h6 class="likenum" style="margin-top:-70px; margin-left: 550px;">200</h6>
+	</div>
+		<!-- кресло желтое и зеленое-->
+			
+			<div class="grye col-12 offset-0 offset-md-1 col-md-4" style="background-image: url(images/greenellow.png); background-repeat: no-repeat; min-height:700px; ">
+			<h4 style=" margin-top: 250px">Tabano</h4><br>
+			<h6 ><strong>Designer</strong> PATRICIA URQUIOLA</h6>
+			<h6 ><strong>Typology</strong> Armchairs</h6>
+			<h6 ><strong>Client</strong> B&B ITA</h6>
+			<h6 ><strong>Year</strong> 2014</h6>
+			<h5 style="margin-left: 150px; margin-top:-30px;">VIEW PROJECT</h5>
+			<div class="like" style="background-image: url(images/heart.png); background-repeat: no-repeat; min-height:100px; margin-left: 210px;"></div>
+		    <h6 class="likenum" style="margin-top:-70px;margin-left: 210px; ">200</h6>
+		    <h4 style=" margin-top: 0px;margin-left: 250px">Fiji</h4><br>
+			<h6 style="margin-left: 250px"><strong>Designer</strong> Cuno Frommherz</h6>
+			<h6 style="margin-left: 250px"><strong>Typology</strong> Armchairs</h6>
+			<h6 style="margin-left: 250px"><strong>Year</strong> 012</h6>
+			<h5 style="margin-left: 250px; margin-top:0px;">VIEW PROJECT</h5>
+			<div class="like" style="background-image: url(images/heart.png); background-repeat: no-repeat; min-height:100px; margin-left: 310px;"></div>
+		    <h6 class="likenum" style="margin-top:-70px;margin-left: 310px; ">200</h6>
+		</div>
+
+	<!-- диван-->
+			
+			<div class="col-12 offset-0 offset-md-1 col-md-4" style="background-image: url(images/divan.png); background-repeat: no-repeat; min-height:200px; ">
+		<div style="">
+			<h4 style=" margin-left: 70px;margin-top: 170px"> sesann</h4><br>
+			<h6 style=" margin-left: 70px;margin-top: -30px"><strong>Designer</strong> Gianfranco Frattini </h6>
+			<h6 style=" margin-left: 70px;"><strong>Typology</strong> ARMchairs</h6>
+			<h6 style=" margin-left: 70px;"><strong>Client</strong> cassi</h6>
+			<h6 style=" margin-left: 70px;"><strong>Year</strong> 1970</h6>
+		</div>
+		<h5 style="margin-left: 350px;margin-top: -120px;">VIEW PROJECT</h5>
+		<div class="like" style="background-image: url(images/heart.png); background-repeat: no-repeat; min-height:100px;margin-top: 10px;margin-left: 420px;"></div>
+		<h6 class="likenum" style="margin-top:-70px; margin-left: 420px;">200</h6>
+	</div>
+
+		<!-- что это ?-->
+			
+			<div class="col-12 offset-1 offset-md-0 col-md-3" style="background-image: url(images/alessi.png); background-repeat: no-repeat; min-height:200px; ">
+		<div style="">
+			<h4 style=" margin-left: 140px;margin-top: 50px"> ALESSI</h4><br>
+			<h6 style=" margin-left: 120px;margin-top: -30px"><strong>Designer</strong> Piero Lissoni </h6>
+			<h6 style=" margin-left: 120px;"><strong>Client</strong> Alessi</h6>
+			<h6 style=" margin-left: 120px;"><strong>Year</strong> 2013</h6>
+		</div>
+		<h5 style="margin-left: 120px;margin-top: 20px;">VIEW PROJECT</h5>
+		<div class="like" style="background-image: url(images/heart.png); background-repeat: no-repeat; min-height:100px;margin-top: 10px;margin-left: 170px;"></div>
+		<h6 class="likenum" style="margin-top:-70px; margin-left: 170px;">200</h6>
+	</div>
+	<!-- timeline -->
+
+	<div class="col-10 offset-1 offset-md-0 col-md-3" style="background-image: url(images/timeline.png); background-repeat: no-repeat; min-height:200px;width: 200px; ">
+			<div class="projects" >
+								<div class=" napravl" style="padding-top:20px; margin-left: 50px;">TIMELINE</div>
+								<div class="atrproj" style="margin-left: -80px;">2014</div>
+								<div class="atrproj" style="margin-left: -80px;">2013</div>
+								<div class="atrproj" style="margin-left: -80px;">2012</div>
+								<div class="atrproj" style="margin-left: -80px;">2011</div>
+			</div>
+	</div>
+	<!-- Studio Section-->
+		<!-- еще линии-->
+			
+	<div class="col-12 offset-1 offset-md-1 col-md-3" style="background-image: url(images/newline.png); background-repeat: no-repeat; min-height:400px; ">
+			<h1 style=" margin-left: 250px;margin-top: 350px; color: #ffffff"> STUDIO</h1>
+		</div>
+		<!-- lorem-->
+		<div class="col-12 offset-0 offset-md-0 col-md-3" style="margin-top: 60px;">
+		<strong >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+		standard dummy text ever since the 1500s,</strong><br><br> 
+		<strong>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</strong>
+		<br><br> typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+	    </div>
+
+	    	<!-- timeline -->
+
+	<div class="col-10 offset-1 offset-md-1 col-md-4" style="background-image: url(images/bgimg.png); background-repeat: no-repeat; min-height:200px; margin-top:50px; ">
+								<div class=" napravl" style="margin-top:230px " >AWARDS</div>
+								<div style="width:500px;border-top:1px solid black;margin-left:-40px" ></div>
+								<div class=" napravl" style="margin-left:-30px " >Aenean ullamcorper<br> porta nisl,<br> ac lobortis elit  <br>commodo placer copia</div>
+								<div class=" napravl" style="margin-left:180px ;margin-top:-98px; " >Aenean ullamcorper<br> porta nisl,<br> ac lobortis elit  <br>commodo placer copia</div>
+								
+
+	</div>
+
+		<div class="col-10 offset-1 offset-md-1 col-md-3" style="margin-top: 40px">
+			<h6>STAFF.<br><br>
+
+		Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincidunt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus. <br><br>
+
+		Aenean diam tortor, hendrerit ac pulvinar vel, condimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut. <br><br>
+
+		Morbi sagittis diam mauris, in adipiscing nulla convallis ut.</h6>
+
+		</div>
+		
+		<div class="col-md-2 ">
+			<!--one-->
+			<img src="images/one.png" class=" col-md-12" style="min-height: 140px; min-width: 140px;"><br>
+			<h5>Philip starck<br></h5>
+			Designer<br><br>
+			<h6 style="color: #fa651e ">CV<img src="images/arrowicon.png"  style="min-height: 10px; min-width: 10px;"><br>
+				<a href="#">fb</a>
+				<a href="#">tw</a>
+				<a href="#">in</a>
+				<a href="#">g+</a>
+			</h6>
+
+		</div>
+			<!--two-->
+			<div class="col-md-2 ">
+			<img src="images/two.png" class=" col-md-12" style="min-height: 140px; min-width: 140px;"><br>
+			<h5>mario bellini<br></h5>
+			Designer<br><br>
+			<h6 style="color: #fa651e ">CV<img src="images/arrowicon.png"  style="min-height: 10px; min-width: 10px;"><br>
+				<a href="#">fb</a>
+				<a href="#">tw</a>
+				<a href="#">in</a>
+				<a href="#">g+</a>
+			</h6>
+			</div>
+
+			<!--two-->
+			<div class="col-md-2 ">
+			<img src="images/thre.png" class=" col-md-12" style="min-height: 140px; min-width: 140px;"><br>
+			<h5>patricia urquiola<br></h5>
+			Designer<br><br>
+			<h6 style="color: #fa651e ">CV<img src="images/arrowicon.png"  style="min-height: 10px; min-width: 10px;"><br>
+				<a href="#">fb</a>
+				<a href="#">tw</a>
+				<a href="#">in</a>
+				<a href="#">g+</a>
+			</h6>
+			</div>
+			<!-- news-->
+		<div class="col-12 offset-1 offset-md-1 col-md-3" style="background-image: url(images/greenline.png); background-repeat: no-repeat; min-height:400px; ">
+			<h1 style=" margin-left: 250px;margin-top: 350px; color: #ffffff"> NEWS</h1>
+		</div>
+		
+			<!-- news1-->
+		<div>
+			<h2>Mauris et dui sed <br>justo placerat tristique. </h2>
+		<div class="col-10 offset-2 offset-md-0 col-md-12" style="background-image: url(images/news1.png); background-repeat: no-repeat; min-height:200px; ">
+
+		</div>			
+		Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget.<br> Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien<br> fermentum scelerisque eu id massa. <br>Mauris ornare massa vel mauris tempus, vitae tempus urna tincidunt. 
+		</div>
+
+		<div class="offset-1">
+			<h2>Mauris et dui sed <br>justo placerat tristique. </h2>
+		<div class="col-10 offset-2 offset-md-0 col-md-12" style="background-image: url(images/news2.png); background-repeat: no-repeat; min-height:200px; ">
+
+		</div>			
+		Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget.<br> Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien<br> fermentum scelerisque eu id massa. <br>Mauris ornare massa vel mauris tempus, vitae tempus urna tincidunt. 
+		</div>
+		<!--footer-->
+
+		<div class="col-10 offset-2 offset-md-1 col-md-6" style="background-image: url(images/map.png); background-repeat: no-repeat; min-height:700px; "></div>
+			
+		<div class="col-2" style="padding-top: 50px;"> 
+		<img src="images/logo/DSGN.png" class="col-8 offset-6" style="min-height: 140px; min-width: 140px;">
+		<h5 class="col-6 offset-6"><strong>ASSOCIATES<br>STUDIO<br>DESIGN</strong></h5>
+
+		<h5 style="margin-left: -180px; margin-top: -220px">90802 California <br>Long beach<br> PO Box 68789 <br>300 East Ocean <br> Boulev<h5><br>
+		<h5 style="margin-left: -180px;">+64 9 345 6758 <br>info@dsgn-studio.com<h5>
+		<!-- footer logo-->
+  		<div class="d-flex flex-row offset-6" style="padding-top: 60px;">
+  			<div class="logoimg col-3" style="background-image: url(images/logo/facebookicon.png); background-repeat: no-repeat; margin-left:10px"></div>
+  			<div class="logoimg col-3" style="background-image: url(images/logo/twittericon.png); background-repeat: no-repeat; margin-right:10px"></div> 
+  			<div class="logoimg col-3" style="background-image: url(images/logo/linkedinicon.png); background-repeat: no-repeat; margin-right:10px"></div> 
+  			<div class="logoimg col-3" style="background-image: url(images/logo/g+icon.png); background-repeat: no-repeat; margin-right:10px"></div> 
+  			
+		</div> 	
+		<h6 style="margin-left: -220px;margin-top: 40px">© 2014  DSGN. All rights reserved - Designed by theuncreativelab.com</h6>
+	</div>	
+</body>
+</html>
+
+
